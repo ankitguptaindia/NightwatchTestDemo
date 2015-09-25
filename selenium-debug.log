@@ -1,80 +1,80 @@
-18:26:17.330 INFO - Launching a standalone server
-18:26:17.368 INFO - Java: Oracle Corporation 25.25-b02
-18:26:17.368 INFO - OS: Linux 3.13.0-63-generic amd64
-18:26:17.379 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
-18:26:17.464 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match with current platform: LINUX
-18:26:17.501 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-18:26:17.502 INFO - Version Jetty/5.1.x
-18:26:17.504 INFO - Started HttpContext[/selenium-server,/selenium-server]
-18:26:17.535 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@2a18f23c
-18:26:17.535 INFO - Started HttpContext[/wd,/wd]
-18:26:17.535 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
-18:26:17.535 INFO - Started HttpContext[/,/]
-18:26:17.538 INFO - Started SocketListener on 0.0.0.0:4444
-18:26:17.538 INFO - Started org.openqa.jetty.jetty.Server@b1bc7ed
-18:26:17.794 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
-18:26:17.806 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Login, browserName=firefox, javascriptEnabled=true, platform=ANY}]
-18:26:21.493 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
-18:26:21.506 INFO - Executing: [get: http://ankit.rtcamp.net/wp-admin/])
-18:26:24.818 INFO - Done: [get: http://ankit.rtcamp.net/wp-admin/]
-18:26:24.825 INFO - Executing: [find elements: By.cssSelector: body])
-18:26:24.933 INFO - Done: [find elements: By.cssSelector: body]
-18:26:24.937 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: body]])
-18:26:24.987 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: body]]
-18:26:24.992 INFO - Executing: [find elements: By.cssSelector: #user_login])
-18:26:25.045 INFO - Done: [find elements: By.cssSelector: #user_login]
-18:26:25.048 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: #user_login]])
-18:26:25.108 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: #user_login]]
-18:26:25.113 INFO - Executing: [find element: By.cssSelector: #user_login])
-18:26:25.168 INFO - Done: [find element: By.cssSelector: #user_login]
-18:26:25.173 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: #user_login], [a, d, m, i, n]])
-18:26:25.276 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: #user_login], [a, d, m, i, n]]
-18:26:25.281 INFO - Executing: [find elements: By.cssSelector: #user_pass])
-18:26:25.407 INFO - Done: [find elements: By.cssSelector: #user_pass]
-18:26:25.410 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: #user_pass]])
-18:26:25.466 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: #user_pass]]
-18:26:25.470 INFO - Executing: [find element: By.cssSelector: #user_pass])
-18:26:25.522 INFO - Done: [find element: By.cssSelector: #user_pass]
-18:26:25.527 INFO - Executing: [send keys: 2 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: #user_pass], [r, t, c, a, m, p, ., c, o, m]])
-18:26:25.615 INFO - Done: [send keys: 2 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: #user_pass], [r, t, c, a, m, p, ., c, o, m]]
-18:26:25.619 INFO - Executing: [find element: By.cssSelector: #rememberme])
-18:26:25.673 INFO - Done: [find element: By.cssSelector: #rememberme]
-18:26:25.677 INFO - Executing: [click: 3 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: #rememberme]])
-18:26:25.789 INFO - Done: [click: 3 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: #rememberme]]
-18:26:25.794 INFO - Executing: [find elements: By.cssSelector: #wp-submit])
-18:26:25.856 INFO - Done: [find elements: By.cssSelector: #wp-submit]
-18:26:25.860 INFO - Executing: [is displayed: 4 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: #wp-submit]])
-18:26:25.919 INFO - Done: [is displayed: 4 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: #wp-submit]]
-18:26:25.924 INFO - Executing: [find element: By.cssSelector: #wp-submit])
-18:26:25.981 INFO - Done: [find element: By.cssSelector: #wp-submit]
-18:26:25.985 INFO - Executing: [click: 4 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: #wp-submit]])
-18:26:40.776 INFO - Done: [click: 4 [[FirefoxDriver: firefox on LINUX (72c91f10-f2e9-4c22-ad7d-43a87636dc89)] -> css selector: #wp-submit]]
-18:26:40.781 INFO - Executing: [delete session: 11de6a50-7a83-4d44-bf2b-d84ab9176aa0])
-18:26:40.938 INFO - Done: [delete session: 11de6a50-7a83-4d44-bf2b-d84ab9176aa0]
-18:26:41.057 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Title, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
-18:26:41.058 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Title, browserName=firefox, javascriptEnabled=true, platform=ANY}]
-18:26:44.840 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Title, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
-18:26:44.845 INFO - Executing: [get: http://www.google.com])
-18:26:46.682 INFO - Done: [get: http://www.google.com]
-18:26:46.687 INFO - Executing: [find elements: By.cssSelector: body])
-18:26:46.930 INFO - Done: [find elements: By.cssSelector: body]
-18:26:46.933 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on LINUX (ff857f51-66e4-4838-ac22-9fbc458dc52f)] -> css selector: body]])
-18:26:46.990 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on LINUX (ff857f51-66e4-4838-ac22-9fbc458dc52f)] -> css selector: body]]
-18:26:46.995 INFO - Executing: [find element: By.cssSelector: input[type=text]])
-18:26:47.058 INFO - Done: [find element: By.cssSelector: input[type=text]]
-18:26:47.062 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on LINUX (ff857f51-66e4-4838-ac22-9fbc458dc52f)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
-18:26:47.229 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on LINUX (ff857f51-66e4-4838-ac22-9fbc458dc52f)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]]
-18:26:47.233 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
-18:26:47.305 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
-18:26:47.310 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on LINUX (ff857f51-66e4-4838-ac22-9fbc458dc52f)] -> css selector: button[name=btnG]]])
-18:26:47.380 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on LINUX (ff857f51-66e4-4838-ac22-9fbc458dc52f)] -> css selector: button[name=btnG]]]
-18:26:47.384 INFO - Executing: [find element: By.cssSelector: button[name=btnG]])
-18:26:47.791 INFO - Done: [find element: By.cssSelector: button[name=btnG]]
-18:26:47.796 INFO - Executing: [click: 2 [[FirefoxDriver: firefox on LINUX (ff857f51-66e4-4838-ac22-9fbc458dc52f)] -> css selector: button[name=btnG]]])
-18:26:47.982 INFO - Done: [click: 2 [[FirefoxDriver: firefox on LINUX (ff857f51-66e4-4838-ac22-9fbc458dc52f)] -> css selector: button[name=btnG]]]
-18:26:48.988 INFO - Executing: [find element: By.cssSelector: #main])
-18:26:49.003 INFO - Done: [find element: By.cssSelector: #main]
-18:26:49.007 INFO - Executing: [get text: 3 [[FirefoxDriver: firefox on LINUX (ff857f51-66e4-4838-ac22-9fbc458dc52f)] -> css selector: #main]])
-18:26:51.306 INFO - Done: [get text: 3 [[FirefoxDriver: firefox on LINUX (ff857f51-66e4-4838-ac22-9fbc458dc52f)] -> css selector: #main]]
-18:26:51.311 INFO - Executing: [delete session: 8ad4a2ad-5519-4e03-9e81-89dcf9cbf14d])
-18:26:51.465 INFO - Done: [delete session: 8ad4a2ad-5519-4e03-9e81-89dcf9cbf14d]
+12:09:20.479 INFO - Launching a standalone server
+12:09:20.539 INFO - Java: Oracle Corporation 25.25-b02
+12:09:20.539 INFO - OS: Linux 3.13.0-63-generic amd64
+12:09:20.558 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
+12:09:20.694 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match with current platform: LINUX
+12:09:20.738 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+12:09:20.739 INFO - Version Jetty/5.1.x
+12:09:20.741 INFO - Started HttpContext[/selenium-server,/selenium-server]
+12:09:20.774 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@2a18f23c
+12:09:20.774 INFO - Started HttpContext[/wd,/wd]
+12:09:20.774 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+12:09:20.774 INFO - Started HttpContext[/,/]
+12:09:20.777 INFO - Started SocketListener on 0.0.0.0:4444
+12:09:20.778 INFO - Started org.openqa.jetty.jetty.Server@b1bc7ed
+12:09:21.283 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+12:09:21.295 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Login, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+12:09:27.021 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+12:09:27.072 INFO - Executing: [get: http://ankit.rtcamp.net/wp-admin/])
+12:09:36.436 INFO - Done: [get: http://ankit.rtcamp.net/wp-admin/]
+12:09:36.449 INFO - Executing: [find elements: By.cssSelector: body])
+12:09:36.547 INFO - Done: [find elements: By.cssSelector: body]
+12:09:36.552 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: body]])
+12:09:36.600 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: body]]
+12:09:36.609 INFO - Executing: [find elements: By.cssSelector: #user_login])
+12:09:36.675 INFO - Done: [find elements: By.cssSelector: #user_login]
+12:09:36.678 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: #user_login]])
+12:09:36.739 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: #user_login]]
+12:09:36.746 INFO - Executing: [find element: By.cssSelector: #user_login])
+12:09:36.798 INFO - Done: [find element: By.cssSelector: #user_login]
+12:09:36.803 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: #user_login], [a, d, m, i, n]])
+12:09:36.913 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: #user_login], [a, d, m, i, n]]
+12:09:36.917 INFO - Executing: [find elements: By.cssSelector: #user_pass])
+12:09:37.051 INFO - Done: [find elements: By.cssSelector: #user_pass]
+12:09:37.054 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: #user_pass]])
+12:09:37.111 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: #user_pass]]
+12:09:37.115 INFO - Executing: [find element: By.cssSelector: #user_pass])
+12:09:37.169 INFO - Done: [find element: By.cssSelector: #user_pass]
+12:09:37.173 INFO - Executing: [send keys: 2 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: #user_pass], [r, t, c, a, m, p, ., c, o, m]])
+12:09:37.265 INFO - Done: [send keys: 2 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: #user_pass], [r, t, c, a, m, p, ., c, o, m]]
+12:09:37.271 INFO - Executing: [find element: By.cssSelector: #rememberme])
+12:09:37.330 INFO - Done: [find element: By.cssSelector: #rememberme]
+12:09:37.335 INFO - Executing: [click: 3 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: #rememberme]])
+12:09:37.465 INFO - Done: [click: 3 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: #rememberme]]
+12:09:37.469 INFO - Executing: [find elements: By.cssSelector: #wp-submit])
+12:09:37.533 INFO - Done: [find elements: By.cssSelector: #wp-submit]
+12:09:37.539 INFO - Executing: [is displayed: 4 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: #wp-submit]])
+12:09:37.596 INFO - Done: [is displayed: 4 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: #wp-submit]]
+12:09:37.602 INFO - Executing: [find element: By.cssSelector: #wp-submit])
+12:09:37.653 INFO - Done: [find element: By.cssSelector: #wp-submit]
+12:09:37.657 INFO - Executing: [click: 4 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: #wp-submit]])
+12:09:44.926 INFO - Done: [click: 4 [[FirefoxDriver: firefox on LINUX (08b0b3d6-65c7-4086-8f14-f917fcc2cdf8)] -> css selector: #wp-submit]]
+12:09:44.931 INFO - Executing: [delete session: 4c82db92-1028-4980-99f7-92ae73e486d6])
+12:09:45.076 INFO - Done: [delete session: 4c82db92-1028-4980-99f7-92ae73e486d6]
+12:09:45.200 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Title, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+12:09:45.200 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Title, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+12:09:48.976 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Title, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+12:09:48.981 INFO - Executing: [get: http://www.google.com])
+12:09:51.020 INFO - Done: [get: http://www.google.com]
+12:09:51.025 INFO - Executing: [find elements: By.cssSelector: body])
+12:09:51.140 INFO - Done: [find elements: By.cssSelector: body]
+12:09:51.143 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on LINUX (1691da15-b848-4f22-86fb-720916f462f1)] -> css selector: body]])
+12:09:51.197 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on LINUX (1691da15-b848-4f22-86fb-720916f462f1)] -> css selector: body]]
+12:09:51.204 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+12:09:51.271 INFO - Done: [find element: By.cssSelector: input[type=text]]
+12:09:51.277 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on LINUX (1691da15-b848-4f22-86fb-720916f462f1)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
+12:09:51.451 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on LINUX (1691da15-b848-4f22-86fb-720916f462f1)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]]
+12:09:51.456 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
+12:09:51.522 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
+12:09:51.526 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on LINUX (1691da15-b848-4f22-86fb-720916f462f1)] -> css selector: button[name=btnG]]])
+12:09:51.749 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on LINUX (1691da15-b848-4f22-86fb-720916f462f1)] -> css selector: button[name=btnG]]]
+12:09:51.754 INFO - Executing: [find element: By.cssSelector: button[name=btnG]])
+12:09:51.809 INFO - Done: [find element: By.cssSelector: button[name=btnG]]
+12:09:51.812 INFO - Executing: [click: 2 [[FirefoxDriver: firefox on LINUX (1691da15-b848-4f22-86fb-720916f462f1)] -> css selector: button[name=btnG]]])
+12:09:51.995 INFO - Done: [click: 2 [[FirefoxDriver: firefox on LINUX (1691da15-b848-4f22-86fb-720916f462f1)] -> css selector: button[name=btnG]]]
+12:09:53.002 INFO - Executing: [find element: By.cssSelector: #main])
+12:09:53.014 INFO - Done: [find element: By.cssSelector: #main]
+12:09:53.017 INFO - Executing: [get text: 3 [[FirefoxDriver: firefox on LINUX (1691da15-b848-4f22-86fb-720916f462f1)] -> css selector: #main]])
+12:09:55.201 INFO - Done: [get text: 3 [[FirefoxDriver: firefox on LINUX (1691da15-b848-4f22-86fb-720916f462f1)] -> css selector: #main]]
+12:09:55.206 INFO - Executing: [delete session: 426737f2-b093-4b40-87a0-e7e884641105])
+12:09:55.375 INFO - Done: [delete session: 426737f2-b093-4b40-87a0-e7e884641105]
